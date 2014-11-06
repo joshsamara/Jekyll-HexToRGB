@@ -1,11 +1,13 @@
 #Jekyll-HexToRGB
 
-A super simple hex conversion Liquid filter plugin.
+A super simple hex conversion Jekyll Liquid filter plugin.
 
 This was made because I needed something to convert a hexadecimal string in the
 form `"RRGGBB"` into the decimal in an array of form `[R, G, B]`
 
 ## Installation
+*Assuming you are using a Jekyll site setup*
+
 + If you have no `_plugins` directory in your site, create one
 + Simply put `hex_to_rgb.rb` into your `plugins` directory
 
